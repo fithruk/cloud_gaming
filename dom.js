@@ -312,7 +312,7 @@ function createPhoneVersion () {
                     </div>
                     <div class="birger_menu_box">
                         <ul>
-                            <li><a class="burger_link" href="../first/noties.html">Главная</a></li>
+                            <li><a class="burger_link" href="index.html">Главная</a></li>
                             <li><a class="burger_link" href="#">Скачать</a></li>
                             <li><a class="burger_link" href="#">Открыть в браузере</a></li>
                             <li><a class="burger_link" href="#">Цены</a></li>
