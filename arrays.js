@@ -1,9 +1,9 @@
 
 let images = [
-    { slider1: "C:/Users/User/Desktop/www/first/img/header_img/slider_1.png" },
-    { slider2: "C:/Users/User/Desktop/www/first/img/header_img/slider_2.png" },
-    { slider3: "C:/Users/User/Desktop/www/first/img/header_img/slider_3.png" },
-    { slider4: "C:/Users/User/Desktop/www/first/img/header_img/slider_4.png" },
+    { slider1: "img/header_img/slider_1.png" },
+    { slider2: "img/header_img/slider_2.png" },
+    { slider3: "img/header_img/slider_3.png" },
+    { slider4: "img/header_img/slider_4.png" },
 ];
 
 let info = {
@@ -14,10 +14,10 @@ let info = {
 }
 
 let stepsforStart = {
-    item1 : "C:/Users/User/Desktop/www/first/img/how_section/Mail_Contact.png",
-    item2 : "C:/Users/User/Desktop/www/first/img/how_section/Download_from_the_Cloud.png",
-    item3 : "C:/Users/User/Desktop/www/first/img/how_section/Ds3_Tool.png",
-    item4 : "C:/Users/User/Desktop/www/first/img/how_section/Apple_Arcade.png",
+    item1 : "img/how_section/Mail_Contact.png",
+    item2 : "img/how_section/Download_from_the_Cloud.png",
+    item3 : "img/how_section/Ds3_Tool.png",
+    item4 : "img/how_section/Apple_Arcade.png",
     
 };
 
