@@ -587,7 +587,7 @@ body {
     
     .header_phone {
         min-height: 100vh;
-        background: url(../first/img/phone/header/Rectangle_71.png) center no-repeat;
+        background: url(img/phone/header/Rectangle_71.png) center no-repeat;
         background-size: cover;
         position: relative;
         overflow: hidden;
