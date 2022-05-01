@@ -1,0 +1,930 @@
+
+@font-face {
+    font-family: roboto light;
+    src: url(../first/fonts/Roboto-Light.ttf);
+}
+
+body {
+    margin: 0%;
+    line-height: 1.6;
+    background-color: #141C24;
+    overflow-x: hidden;
+}
+
+
+.container {
+    width: auto;
+    min-height: 100vh;
+    background-color: #141C24;
+}
+
+.header_inner {
+    display: flex;
+    background-color:  #141C24;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_box {
+    width: 30%;
+    max-width: 200px;
+    display: flex;
+}
+
+.img_box {
+    width: 30%;
+    height: fit-content;
+}
+
+.logo_img {
+    object-fit: cover;
+}
+
+.logo_link {
+    display: flex;
+    align-items: center;
+}
+
+.logo_linl_text{
+    text-decoration: none;
+    color: #57D6FF ;
+    text-transform: uppercase;
+    font-size: calc(6px + 12 * (100vw / 1366));
+    font-weight: 400;
+    font-family: 'My Soul', cursive;
+}
+
+.nav_box {
+    width: 65%;
+    
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: roboto light;
+    font-size: calc(4px + 12 * (100vw / 1366));
+    transition: .3s linear;
+}
+
+.nav_link:hover {
+    border-bottom: 1px solid #00C5FF;
+}
+
+/* слайдер */
+
+.carusel_box {
+    width: 75%;
+    margin: auto;
+    background-color: #141C24;
+    box-shadow: 0 0 20px #57D6FF;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.carusel_card {
+   
+}
+
+.carusel_img {
+    object-fit: cover;
+    position: relative;
+    transform: scale(1.1);
+}
+
+/* контент хедера */
+
+.header_content_box {
+    text-align: center;
+    width: 100%;
+    margin-top: 200px ;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+}
+
+.header_sup_title {
+    font-family: roboto light;
+    font-size: calc(4px + 12 * (100vw / 1366));
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.header_title {
+    font-family: 'Voltaire', sans-serif;
+    font-size: calc(12px + 20 * (100vw / 1366));
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.button_header {
+    border: 1px solid white;
+    background-color: #FFFFFF;
+    width: 30%;
+    margin: auto;
+    border-top-right-radius: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.button_header:hover {
+    background-color: #00C5FF;
+}
+
+.header_link_button {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Voltaire', sans-serif;
+    
+}
+
+/* как это работает */
+
+.how_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.half_how {
+    width: 50%;
+}
+
+.how_img {
+    object-fit: cover;
+    max-width: 100%;
+    width: auto;
+}
+
+.half_how_content {
+    padding-left: 80px;
+    text-align: start;
+    color: #FFFFFF;
+    padding-top: 20%;
+    padding-right: 20%;
+}
+
+.sup_title_how {
+    color: #57D6FF;
+    font-size: calc(4px + 12 * (100vw / 1366));
+    font-family: roboto light;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.before {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #57D6FF;
+    border: 1px solid #57D6FF;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.how_title {
+    font-family: 'Voltaire', sans-serif;
+    font-size: calc(8px + 12 * (100vw / 1366));
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.br_how {
+    width: 50%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.2);
+    content: "";
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.how_text {
+    font-family: roboto light;
+    font-size: calc(9px + 12 * (100vw / 1366));
+    font-weight: 300;
+    color: #ABABAB;
+}
+
+.how_link_box {
+    margin-top: 50px;
+}
+
+.how_link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: roboto light;
+    color: #00C5FF;
+    border-bottom: 1px solid #00C5FF;
+    font-weight: 500;
+}
+
+/* начни играть */
+
+.start_to_play {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.srart_sup_title {
+    display: inline-flex;
+    align-items: center;
+    color: #57D6FF;
+    font-family: roboto light;
+    font-weight: 300;
+    font-size: calc(4px + 12 * (100vw / 1366));
+}
+
+.start_title {
+    font-family: 'Voltaire', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.steps_box {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+.step_item {
+    width: 20%;
+    position: relative;
+}
+
+.step_item:after {
+    content: "";
+    display: block;
+    background-color: #50AFCD;
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    top: 25%;
+    right: -35%;
+    opacity: .7;
+}
+
+.step_item:nth-child(4):after {
+    display: none;
+}
+
+.step_item:last-child:after {
+    display: none;
+}
+
+.step_box_img {
+
+}
+
+.step_img {
+    object-fit: contain;
+    max-width: 100%;
+    width: auto;
+}
+
+.step_desc_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.step_description {
+    color: #F1F1F1;
+    font-family: roboto light;
+    font-weight: 400;
+    width: 20%;
+    margin-bottom: 100px;
+}
+
+.link_start_box {
+    margin: auto;
+    text-align: center;
+}
+
+/* тарифы */
+
+.prices_box {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.prices_box::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #00C5FF;
+    position: absolute;
+    bottom: -50px;
+}
+
+.prices_item {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+    text-align: start;
+    color: #FFFFFF;
+    background-color: #1F2631;
+    height: 450px;
+    position: relative;
+}
+
+.prices_item:nth-child(2) {
+    background-color: #00C5FF;
+    color: #141C24;
+    box-shadow: 0 -10px 50px #00C5FF;
+}
+
+.prices_item:nth-child(2) .price_desc {
+    color: #000000;
+}
+
+.prices_item:nth-child(2) .pices_button {
+    background-color: #141C24;
+}
+
+.prices_item:nth-child(2) .pices_button .prices_link {
+    color: #F1F8FF;
+}
+
+.ptices_title {
+    font-family: roboto ligth;
+    font-weight: bold;
+    font-size: calc(22px + 12 * (100vw / 1366));
+    padding-bottom: 30px;
+    padding-left: 27px;
+}
+
+.price_per_hour {
+    font-family: roboto ligth;
+    font-weight: 500;
+    font-size: calc(18px + 12 * (100vw / 1366));
+    padding-bottom: 30px;
+    padding-left: 27px;
+}
+
+.price_desc {
+    font-family: roboto ligth;
+    font-weight: 300;
+    font-size: calc(10px + 12 * (100vw / 1366));
+    color: #ABABAB;
+    padding-bottom: 30px;
+    padding-left: 27px;
+}
+
+.pices_button {
+    background-color: #00C5FF;
+    border: 1px solid #00C5FF;
+    border-radius: 5px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}
+
+.pices_button:hover {
+    box-shadow: 0 0 20px #00C5FF;
+}
+
+.prices_link {
+    text-decoration: none;
+    color: #141C24;
+    font-family: roboto ligth;
+    font-weight: 500;
+    font-size: calc(12px + 12 * (100vw / 1366));
+}
+
+/* играй на любых девайсах */
+
+.how_box:last-child {
+    margin-top: 100px;
+}
+
+.map_box {
+    width: 50%;
+    margin: auto;
+}
+
+.map {
+    object-fit: cover;
+    max-width: 100%;
+    width: auto;
+    height: fit-content;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+
+/* формы и попапы */
+
+.forms_box {
+    display: flex;
+    width: 30%;
+    margin: 50px auto;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.form_body {
+    transform: translateX(0);
+}
+
+.form {
+    width: 100%;
+    font-family: roboto ligth;
+    font-size: calc(12px + 12 * (100vw / 1366));
+    color: #00000080;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.form_button {
+    border: 1px solid white;
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 10px auto;
+    border-top-right-radius: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s linear;
+    position: relative;
+    visibility: visible;
+}
+
+.forms_box .header_link_button {
+    font-weight: bold;
+    color: #000000;
+}
+
+.check_box {
+    display: inline-flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.check_box_text {
+    font-family: roboto light;
+    font-size: calc(4px + 8 * (100vw / 1366));
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.sistem {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    background-color: #141C24;
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+    transition: .4s ease-in-out;
+    width: 100%;
+}
+
+.sistem.active {
+    right: 0%;
+}
+
+.sistem_title {
+    font-family: roboto ligth;
+    font-size: calc(6px + 12 * (100vw / 1366));
+    color: #FFFFFF;
+}
+
+.sistem_box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.link_img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+@media (Max-width: 768px){
+    .header_inner {
+        padding-right: 0;
+        justify-content: center;
+    }
+    .prices_box  {
+        width: 100%;
+    }
+
+    .prices_item {
+        width: 25%;
+    }
+
+    .pices_button {
+        width: 100%;
+        left: 0;
+    }
+}
+
+
+
+/* для телефона */
+
+@media (Max-width : 481px){
+    .container_second {
+        width: auto;
+        max-width: 480px;
+        /* min-height: 100vh; */
+        background-color: #141C24;
+        overflow-x: hidden;
+    }
+    
+    .header_phone {
+        min-height: 100vh;
+        background: url(../first/img/phone/header/Rectangle_71.png) center no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .burger_menu {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #141C24;
+        transform: translateX(100%);
+        transition: .4s ease-out;
+    }
+    
+    .burger_menu.active {
+        transform: translateX(0);
+        transition: .4s ease-out;
+    }
+    
+    .birger_menu_box {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .burger_link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: roboto light;
+        font-size: 16px;
+    }
+    
+    ul {
+        padding-left: 0%;
+    }
+    
+    ul li {
+        list-style-type: none;
+        margin-top: 30px;
+    }
+    
+    ul li:first-child {
+        border-bottom: 1px solid #00C5FF;
+    }
+    
+    .header_phone_inner {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .logo_box {
+        width: 40%;
+    }
+    
+    .logo_img {
+        object-fit: contain;
+        
+        width: 100%;
+    }
+    
+    .header_sup_title {
+        width: 80%;
+        margin: 200px auto 0;
+        text-align: start;
+        font-size: 20px;
+        font-family: roboto light;
+        color: #FFFFFF;
+    }
+    
+    .header_title {
+        width: 80%;
+        margin: auto;
+        text-align: start;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: roboto light;
+        color: #FFFFFF;
+    }
+    
+    .button_header_phone {
+        border: 1px solid white;
+        background-color: #FFFFFF;
+        width: 80%;
+        margin: 80px auto 0;
+        border-top-right-radius: 50px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: .3s linear;
+    }
+    
+    .button_header_phone .header_link_button {
+        font-weight: 800;
+        font-size: 24px;
+    }
+    
+    .burger_box {
+        width: 70px;
+        height: 50px;
+        position: absolute;
+        right: 20px;
+        bottom: 40px;
+    }
+    
+    .burger_layer {
+        width: 100%;
+        content: "";
+        background-color: #EAE5E5;
+        height: 5px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /* как это работает */
+    .phone_how_is_work {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .phone_how_is_work .sup_title_how {
+        font-size: 16px;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .phone_how_is_work .before {
+        width: 50px;
+    }
+    .phone_how_is_work .how_title {
+        font-size: 35px;
+        text-align: start;
+        width: 90%;
+        margin: 30px auto;
+    }
+    
+    .phone_how_is_work .how_text {
+        width: 90%;
+        margin: 20px auto 0;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: start;
+    }
+    
+    .how_phone_img_box {
+        max-width: 420px;
+        margin: auto;
+        transform: scale(1.5);
+    }
+    
+    .how_phone_img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+    
+    /* начни играть */
+    
+    .phone_start_play {
+        width: 90%;
+        margin: 100px auto 0;
+        text-align: center;
+    }
+    .phone_start_play .before {
+        width: 50px;
+    }
+    .phone_start_play .sup_title_how {
+        font-size: 16px;
+        margin: auto;
+        justify-content:  center;
+    }
+    
+    .phone_start_play .how_title {
+        font-size: 35px;
+    }
+    
+    .start_play_phone_img_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .start_play_phone_item {
+        width: 50%;
+        position: relative;
+        margin-top: 50px;
+    }
+    
+    .start_play_phone_item::after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 50px;
+        background-color: #50AFCD;
+        position: absolute;
+        right: -10%;
+        top: 20px;
+    }
+    
+    .start_play_phone_item:nth-child(2)::after {
+        right: 70%;
+        top: 90px;
+        transform: rotate( -40deg);
+        width: 140px;
+    }
+    
+    .start_play_phone_item:last-child::after {
+        display: none;
+    }
+    
+    .phone_img_item_box {
+        width: auto;
+    }
+    
+    .phone_img_item {
+        object-fit: cover;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .phone_play_title {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: roboto ligth;
+    }
+    
+    /* тарифы */
+    
+    .phone_price {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .phone_price .before {
+        width: 50px;
+    }
+    
+    
+    .phone_price .sup_title_how {
+        font-size: 16px;
+        margin: auto;
+        justify-content:  center;
+    }
+    
+    .phone_price .how_title {
+        font-size: 35px;
+    }
+    
+    .phone_price_box {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .phone_price_item {
+        width: auto;
+        padding: 20px;
+        background-color: #1F2631;
+        text-align: start;
+        margin-top: 20px;
+        
+    }
+    
+    .phone_item_title {
+        font-family: roboto light;
+        font-size: 30px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        font-weight: 700;
+    }
+    
+    .phone_item_per {
+        font-family: roboto light;
+        font-size: 24px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        font-weight: 500;
+    }
+    .phone_item_text {
+        font-family: roboto light;
+        font-size: 20px;
+        color: #ABABAB;
+        margin-bottom: 40px;
+        font-weight: 300;
+    }
+    
+    .phone_item_button {
+        width: 90%;
+        margin: 40px auto;
+        background-color: #00C5FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        
+    }
+    
+    .phone_item_button_link {
+        color: #141C24;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: roboto light;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    /* кроссдевайс */
+    
+    .phone_any_devaices {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .phone_any_devaices .before{
+        width: 50px;
+    }
+    
+    .phone_any_devaices .sup_title_how {
+        font-size: 16px;
+        margin: auto;
+        justify-content:  center;
+    }
+    
+    .phone_any_devaices .how_title {
+        font-size: 35px;
+    }
+    
+    .phone_any_devaices .how_phone_img_box {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    
+    .footer {
+        background-color: #171717;
+    }
+}
