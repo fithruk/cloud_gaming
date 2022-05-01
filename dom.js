@@ -25,7 +25,7 @@ function createHeader() {
     headerinner.innerHTML = `
             <div class="logo_box">
             <div class="img_box">
-                <img class="logo_img" src="../first/img/header_img/logo.png" alt="">
+                <img class="logo_img" src="img/header_img/logo.png" alt="">
             </div>
             <div class="logo_link">
                 <a class="logo_linl_text" href="#">WARPLAY.CLOUD</a>
@@ -109,7 +109,7 @@ function createHowItIsWork () {
     howBox.classList.add('how_box');
     howBox.innerHTML = `
     <div class="half_how">
-                <img class="how_img" src="../first/img/how_section/all_deckstop.png" alt="">
+                <img class="how_img" src="img/how_section/all_deckstop.png" alt="">
             </div>
             <div class="half_how">
                 <div class="half_how_content">
@@ -243,7 +243,7 @@ function createAnyDevaices () {
         </div>
     </div>
     <div class="half_how">
-        <img class="how_img" src="../first/img/how_section/any_devaices.png" alt="">
+        <img class="how_img" src="img/how_section/any_devaices.png" alt="">
     </div>
     `
     container.appendChild(howBox);
@@ -261,7 +261,7 @@ function createAnyDevaices () {
     container.appendChild(startToPlay);
     let mapBox = document.createElement('div');
     mapBox.classList.add('map_box');
-    mapBox.innerHTML = `<img class="map" src="../first/img/how_section/map.png" alt="">`;
+    mapBox.innerHTML = `<img class="map" src="img/how_section/map.png" alt="">`;
     container.appendChild(mapBox);
 
     let footer = document.createElement('footer');
@@ -269,7 +269,7 @@ function createAnyDevaices () {
     footer.innerHTML = `
     <div class="logo_box">
     <div class="img_box">
-        <img class="logo_img" src="../first/img/header_img/logo.png" alt="">
+        <img class="logo_img" src="img/header_img/logo.png" alt="">
     </div>
     <div class="logo_link">
         <a class="logo_linl_text" href="#">WARPLAY.CLOUD</a>
@@ -288,7 +288,7 @@ function createPhoneVersion () {
     <div class="header_phone">
                 <div class="header_phone_inner">
                     <div class="logo_box">
-                        <img class="logo_img" src="../first/img/phone/header/Group_32.png" alt="">
+                        <img class="logo_img" src="img/phone/header/Group_32.png" alt="">
                     </div>
                 </div>
                 <div class="header_sup_title">
@@ -307,7 +307,7 @@ function createPhoneVersion () {
                 <div class="burger_menu">
                     <div class="header_phone_inner">
                         <div class="logo_box">
-                            <img class="logo_img" src="../first/img/phone/header/Group_32.png" alt="">
+                            <img class="logo_img" src="img/phone/header/Group_32.png" alt="">
                         </div>
                     </div>
                     <div class="birger_menu_box">
@@ -337,7 +337,7 @@ function createPhoneVersion () {
                     Наши сервера запускают игру, и передают вам картинку, которой вы можете управлять в реальном времени!
                 </div>
                 <div class="how_phone_img_box">
-                    <img class="how_phone_img" src="../first/img/phone/header/Rectangle_214.png" alt="">
+                    <img class="how_phone_img" src="img/phone/header/Rectangle_214.png" alt="">
                 </div>
                 <div class="how_text">
                     Приложение  запустится на ПК с процессором от 1.5 GHz , от 1 Gb RAM и доступом в интернет от 15 мбит/с на всех операционых системах Windows 7, 8, 10 MacOS и Linux .
@@ -359,7 +359,7 @@ function createPhoneVersion () {
                 <div class="start_play_phone_img_box">
                     <div class="start_play_phone_item">
                         <div class="phone_img_item_box">
-                            <img class="phone_img_item" src="../first/img/phone/header/Mail_Contact.png" alt="">
+                            <img class="phone_img_item" src="img/phone/header/Mail_Contact.png" alt="">
                         </div>
                         <div class="phone_play_title">
                             Cоздайте аккаунт
@@ -367,7 +367,7 @@ function createPhoneVersion () {
                     </div>
                     <div class="start_play_phone_item">
                         <div class="phone_img_item_box">
-                            <img class="phone_img_item" src="../first/img/phone/header/Download_from_the_Cloud.png" alt="">
+                            <img class="phone_img_item" src="img/phone/header/Download_from_the_Cloud.png" alt="">
                         </div>
                         <div class="phone_play_title">
                             Cкачайте модуль
@@ -375,7 +375,7 @@ function createPhoneVersion () {
                     </div>
                     <div class="start_play_phone_item">
                         <div class="phone_img_item_box">
-                            <img class="phone_img_item" src="../first/img/phone/header/Library.png" alt="">
+                            <img class="phone_img_item" src="img/phone/header/Library.png" alt="">
                         </div>
                         <div class="phone_play_title">
                             Выберите тариф 
@@ -383,7 +383,7 @@ function createPhoneVersion () {
                     </div>
                     <div class="start_play_phone_item">
                         <div class="phone_img_item_box">
-                            <img class="phone_img_item" src="../first/img/phone/header/Apple_Arcade.png" alt="">
+                            <img class="phone_img_item" src="img/phone/header/Apple_Arcade.png" alt="">
                         </div>
                         <div class="phone_play_title">
                             Начни играть
@@ -460,7 +460,7 @@ function createPhoneVersion () {
                     Доступные подписки
                 </div>
                 <div class="how_phone_img_box">
-                    <img class="how_phone_img" src="../first/img/phone/header/Group_74.png" alt="">
+                    <img class="how_phone_img" src="img/phone/header/Group_74.png" alt="">
                 </div>
                 <div class="how_text">
                     Наш модуль доступен на все популярные ОС и работает на всех компьютерах.
@@ -480,12 +480,12 @@ function createPhoneVersion () {
                     Карта локаций
                 </div>
                 <div class="how_phone_img_box">
-                    <img class="how_phone_img" src="../first/img/phone/header/map.png" alt="">
+                    <img class="how_phone_img" src="img/phone/header/map.png" alt="">
                 </div>
             </div>
             <div class="footer">
                 <div class="logo_box">
-                    <img class="logo_img" src="../first/img/phone/header/Group_32.png" alt="">
+                    <img class="logo_img" src="img/phone/header/Group_32.png" alt="">
                 </div>
             </div>
     `
@@ -522,10 +522,10 @@ function createForms() {
     <div class="sistem">
         <p class="sistem_title">Выберите операционную систему</p>
         <div class="sistem_box">
-            <a class="sistem_link_img" href="#"><img class="link_img" src="../first/img/sistem_img/Windows_10.png" alt=""></a>
-            <a class="sistem_link_img" href="#"><img class="link_img" src="../first/img/sistem_img/Mac_Client.png" alt=""></a>
-            <a class="sistem_link_img" href="#"><img class="link_img" src="../first/img/sistem_img/Linux.png" alt=""></a>
-            <a class="sistem_link_img" href="#"><img class="link_img" src="../first/img/sistem_img/Chrome.png" alt=""></a>
+            <a class="sistem_link_img" href="#"><img class="link_img" src="img/sistem_img/Windows_10.png" alt=""></a>
+            <a class="sistem_link_img" href="#"><img class="link_img" src="img/sistem_img/Mac_Client.png" alt=""></a>
+            <a class="sistem_link_img" href="#"><img class="link_img" src="img/sistem_img/Linux.png" alt=""></a>
+            <a class="sistem_link_img" href="#"><img class="link_img" src="img/sistem_img/Chrome.png" alt=""></a>
         </div>
     </div>
     `
